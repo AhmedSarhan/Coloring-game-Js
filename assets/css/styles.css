@@ -1,0 +1,65 @@
+body{
+    background:#232323;
+    margin: 0;
+    
+}
+h1{
+    text-align: center ;
+    color: white;
+    text-transform: uppercase;
+    font-family: arial;
+    font-size: 20pt;
+    font-weight: normal;
+    background: steelblue;
+    margin:0;
+    padding: 20px 0;
+}
+#colorDisplay{
+    font-size: 40pt;
+}
+.square{
+    background: yellow;
+    width: 30%;
+    padding-bottom:30%;
+    float: left;
+    margin: 1.66%;
+    border-radius: 15%;
+    transition: background 0.5s;
+}
+#container{
+    max-width: 600px;
+    margin: 10px auto;
+    height: 400px;
+}
+
+#stripe{
+    margin: 0 auto;
+    background: white;
+    text-align: center;
+    height: 30px;
+    color: black;
+}
+
+.selected{
+    background: steelblue;
+    color: white;
+}
+#result{
+    display: inline-block;
+    width: 20%;
+}
+button{
+    border: none;
+    background: none;
+    font-weight: 700;
+    font-size: 14pt;
+    height: 100%;
+    text-transform: uppercase;
+    color: steelBlue;
+    transition: all 0.4s;
+        
+}
+button:hover{
+    background: steelblue;
+    color: white;
+}
